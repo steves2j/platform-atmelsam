@@ -87,7 +87,7 @@ else:
         LIBS=["arm_cortexM0l_math"]
     )
 
-if VENDOR_CORE in ("seeed", "adafruit", "moteino"):
+if VENDOR_CORE in ("seeed", "adafruit", "moteino","s2j"):
     env.Append(
         CPPDEFINES=[
             ("USB_CONFIG_POWER", board.get("build.usb_power", 100))

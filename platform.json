@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-atmelsam.git"
+    "url": "https://github.com/steves2j/platform-atmelsam.git"
   },
   "version": "4.5.1",
   "packageRepositories": [
@@ -58,6 +58,11 @@
       "type": "framework",
       "optional": true,
       "version": "~1.8.6"
+    },
+    "framework-arduino-samd-s2j": {
+      "type": "framework",
+      "optional": true,
+      "version": "~1.5.14"
     },
     "framework-arduino-samd-adafruit": {
       "type": "framework",
