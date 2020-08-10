@@ -5,7 +5,7 @@
     },
     "core": "s2j",
     "cpu": "cortex-m0plus",
-    "extra_flags": "-DARDUINO_SAMD_ZERO -DARDUINO_SAMD_LPWDM0 -DARM_MATH_CM0PLUS -D__SAMD21G18A__",
+    "extra_flags": "-DARDUINO_SAMD_ZERO -DARDUINO_SAMD_LPWD -DARDUINO_SAMD_LPWD_M0 -DARM_MATH_CM0PLUS -D__SAMD21G18A__",
     "f_cpu": "48000000L",
     "hwids": [
       [
@@ -20,7 +20,7 @@
     "mcu": "samd21g18a",
     "system": "samd",
     "usb_product": "S2J LPWD M0",
-    "variant": "lpwdm0"
+    "variant": "lpwd_m0"
   },
   "debug": {
     "jlink_device": "ATSAMD21G18",
