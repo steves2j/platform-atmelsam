@@ -19,7 +19,7 @@
     ],
     "mcu": "samd21g18a",
     "system": "samd",
-    "usb_product": "S2J LPWD M0",
+    
     "variant": "lpwd_m0"
   },
   "debug": {
